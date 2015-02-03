@@ -43,3 +43,12 @@ fig_api:	api.pathwar.net
 
 api.pathwar.net:
 	git clone https://github.com/pathwar/api.pathwar.net
+
+
+travis_install:
+	# Install travis-docker
+	curl -sLo - https://github.com/moul/travis-docker/raw/master/install.sh | sh -xe
+
+
+travis_run:
+	./run make docker_test
