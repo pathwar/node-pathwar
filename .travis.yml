@@ -1,7 +1,7 @@
 install:
 - make travis_install
 script:
-- make travis
+- make travis_run
 notifications:
   slack:
     secure: emFBqG1Mh9B1RS9Q/ca0IkO4MY4j740uX6rLPQVXZQHxAKwH111gMGbZfiAW9x8gP2k7JxwE/6dwlq0Oi+Qnz35WqqHnmaIqzZeJhMppdGx5x2LOlVddMnm/DMIdbRd6pY8ugJCeQBqvTyNNzxiEu49de0IJUsfvy+GQzaEeCJI=
